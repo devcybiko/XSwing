@@ -1,0 +1,56 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>us.thinkable</groupId>
+	<packaging>jar</packaging>
+	<version>20171026</version>
+	<artifactId>xswing</artifactId>
+	
+	<name>XSwing</name>
+	<url>http://thinkable.us</url>
+
+	<reporting>
+		<plugins>
+			<plugin>
+				<groupId>org.apache.maven.plugins</groupId>
+				<artifactId>maven-pmd-plugin</artifactId>
+				<version>2.5</version>
+			</plugin>
+		</plugins>
+	</reporting>
+	<dependencyManagement>
+		<dependencies>
+		</dependencies>
+	</dependencyManagement>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<targetJdk>1.8</targetJdk>
+	</properties>
+
+	<inceptionYear>2011</inceptionYear>
+	<organization>
+		<name>Gregory Smith</name>
+		<url>http://thinkable.us</url>
+	</organization>
+	<description>Swing simplified framework</description>
+	<dependencies>
+		<dependency>
+			<groupId>org.jfree</groupId>
+			<artifactId>jcommon</artifactId>
+			<version>1.0.23</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>org.jfree</groupId>
+			<artifactId>jfreechart</artifactId>
+			<version>1.0.19</version>
+			<scope>runtime</scope>
+		</dependency>
+		<dependency>
+			<groupId>us.thinkable</groupId>
+			<artifactId>xcore</artifactId>
+			<version>20171026</version>
+		</dependency>
+	</dependencies>
+</project>
